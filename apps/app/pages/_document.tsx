@@ -12,7 +12,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
             rel="stylesheet"
           />
-          {/* TOOD: */}
+          {/* TODO: */}
           {/* {process.env['NODE_ENV'] === 'production' && (
             <>
               <Script
