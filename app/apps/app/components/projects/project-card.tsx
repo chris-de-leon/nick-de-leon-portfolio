@@ -16,7 +16,12 @@ export function ProjectCard(props: ProjectCardProps) {
   return (
     <div className="flex flex-col p-4 border-2 bg-secondary rounded-xl lg:col-span-1">
       <div className="flex items-center justify-center">
-        <img className="h-32 mb-4" src={props.imgSrc} alt={props.imgAlt} />
+        <img
+          className="h-32 mb-4"
+          loading="lazy"
+          src={props.imgSrc}
+          alt={props.imgAlt}
+        />
       </div>
       <h1 className="mb-4 text-3xl font-bold text-primary">{props.title}</h1>
       <Link

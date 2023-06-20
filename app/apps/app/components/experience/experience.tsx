@@ -17,6 +17,7 @@ const CONTENT = [
       <div className="flex items-center justify-center w-full h-full">
         <img
           className="object-contain w-[60%] h-[60%]"
+          loading="lazy"
           src="./rubrik.png"
           alt="rubrik"
         />
@@ -33,6 +34,7 @@ const CONTENT = [
       <div className="flex items-center justify-center w-full h-full">
         <img
           className="object-contain w-[60%] h-[60%]"
+          loading="lazy"
           src="./tutor.png"
           alt="rubrik"
         />
@@ -49,6 +51,7 @@ const CONTENT = [
       <div className="flex items-center justify-center w-full h-full">
         <img
           className="object-contain w-[60%] h-[60%]"
+          loading="lazy"
           src="./uc-berkeley.png"
           alt="rubrik"
         />

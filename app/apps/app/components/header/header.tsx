@@ -11,7 +11,12 @@ export function Header() {
             href={'https://www.linkedin.com/in/nicholas-deleon/'}
             target="_blank"
           >
-            <img className="w-10 lg:w-14" src="./logo.png" alt="logo" />
+            <img
+              className="w-10 lg:w-14"
+              loading="lazy"
+              src="./logo.png"
+              alt="logo"
+            />
           </Link>
           <div className="flex flex-row text-xs md:text-lg lg:text-lg gap-x-4 text-primary">
             <Link href="#about">About</Link>
