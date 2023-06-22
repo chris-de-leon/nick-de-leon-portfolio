@@ -33,7 +33,7 @@ export function Projects() {
             variants={fadeIn('left', 0.3)}
             initial="hidden"
             whileInView={'visible'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.4 }}
           >
             <ProjectCard
               animationDelay={0.2}

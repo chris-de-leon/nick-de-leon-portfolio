@@ -62,7 +62,7 @@ const CONTENT = [
 
 export function Experience() {
   return (
-    <div id="experience" className="section lg:h-[130vh]">
+    <div id="experience" className="section lg:h-[210vh]">
       <div className="container mx-auto">
         <div>
           <div className="flex flex-col mb-5 lg:mb-10 lg:items-center">

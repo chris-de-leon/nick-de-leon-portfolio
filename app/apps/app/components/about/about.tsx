@@ -63,7 +63,7 @@ export function About() {
               distributed systems and real analysis.
             </p>
           </motion.div>
-          <div className="flex flex-col gap-y-10 lg:flex-row lg:gap-x-10 lg:justify-around">
+          <div className="flex flex-col gap-y-10 lg:flex-row lg:gap-x-10 lg:justify-between">
             {CONTENT.map((c, i) => {
               return <AboutCard key={i} {...c} />
             })}
